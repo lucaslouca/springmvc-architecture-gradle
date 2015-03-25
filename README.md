@@ -59,7 +59,7 @@ dependencies {
   . . .
 }
 ```
-and run ``gradle clean`` and ``gradle build`` or refresh projects in your IDE.
+and run ``gradle clean`` and ``gradle build`` on **spring-app** or refresh all projects in your IDE.
 
 ###References
 <a href="http://www.gradle.org/docs/current/userguide/java_plugin.html" target="_blank">Gradle Java plugin</a><br>
