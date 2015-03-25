@@ -61,8 +61,8 @@ dependencies {
 ```
 and run ``gradle clean`` and ``gradle build`` on **spring-app** or refresh all projects in your IDE.
 
-###Testing
-Deploying **spring-app-presentation** to a local Tomcat can be tested for instance by accessing:
+###Deployment
+Deployment of **spring-app-presentation** to a local Tomcat can be accessed through:
 ``http://127.0.0.1:8080/spring-app-presentation/book``
 
 ###References
