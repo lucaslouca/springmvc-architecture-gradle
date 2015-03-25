@@ -61,6 +61,10 @@ dependencies {
 ```
 and run ``gradle clean`` and ``gradle build`` on **spring-app** or refresh all projects in your IDE.
 
+###Testing
+Deploying **spring-app-presentation** to a local Tomcat can be tested for instance by accessing:
+``http://127.0.0.1:8080/spring-app-presentation/book``
+
 ###References
 <a href="http://www.gradle.org/docs/current/userguide/java_plugin.html" target="_blank">Gradle Java plugin</a><br>
 <a href="http://www.gradle.org/docs/current/userguide/maven_plugin.html" target="_blank">Gradle Maven plugin</a><br>
