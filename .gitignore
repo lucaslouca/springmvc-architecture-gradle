@@ -1,4 +1,12 @@
 *.class
+.project
+.classpath
+.gitignore
+.settings/
+.springBeans
+.gradle/
+bin/
+build/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
