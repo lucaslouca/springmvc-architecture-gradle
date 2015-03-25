@@ -1,0 +1,6 @@
+
+description = 'spring-app-domain'
+dependencies {
+    compile group: 'org.hibernate', name: 'hibernate-entitymanager', version:'4.2.2.Final'
+    compile group: 'mysql', name: 'mysql-connector-java', version:'5.1.26'
+}

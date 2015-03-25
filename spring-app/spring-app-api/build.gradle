@@ -1,0 +1,4 @@
+description = 'spring-app-api'
+dependencies {
+  compile project(':spring-app-domain')
+}

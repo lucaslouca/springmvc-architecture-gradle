@@ -1,0 +1,18 @@
+rootProject.name = 'spring-app'
+include ':spring-app-api'
+include ':spring-app-service'
+include ':spring-app-presentation'
+include ':spring-app-domain'
+include ':spring-app-dao'
+include ':spring-app-dao-dummy'
+include ':spring-app-dao-jdbc'
+include ':spring-app-dao-hibernate'
+
+project(':spring-app-api').projectDir = "$rootDir/spring-app-api" as File
+project(':spring-app-service').projectDir = "$rootDir/spring-app-service" as File
+project(':spring-app-presentation').projectDir = "$rootDir/spring-app-presentation" as File
+project(':spring-app-domain').projectDir = "$rootDir/spring-app-domain" as File
+project(':spring-app-dao').projectDir = "$rootDir/spring-app-dao" as File
+project(':spring-app-dao-dummy').projectDir = "$rootDir/spring-app-dao-dummy" as File
+project(':spring-app-dao-jdbc').projectDir = "$rootDir/spring-app-dao-jdbc" as File
+project(':spring-app-dao-hibernate').projectDir = "$rootDir/spring-app-dao-hibernate" as File

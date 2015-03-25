@@ -1,0 +1,4 @@
+description = 'spring-app-dao'
+dependencies {
+  compile project(':spring-app-domain')
+}

@@ -1,0 +1,8 @@
+description = 'spring-app-service'
+dependencies {
+  compile project(':spring-app-api')
+  compile project(':spring-app-dao-dummy')
+  compile project(':spring-app-domain')
+    compile group: 'org.springframework', name: 'spring-context', version:'4.1.1.RELEASE'
+    compile group: 'org.springframework', name: 'spring-test', version:'4.1.1.RELEASE'
+}

@@ -1,0 +1,8 @@
+
+description = 'spring-app-dao-dummy'
+dependencies {
+  compile project(':spring-app-dao')
+  compile project(':spring-app-domain')
+    compile group: 'org.springframework', name: 'spring-context', version:'4.1.1.RELEASE'
+    compile group: 'mysql', name: 'mysql-connector-java', version:'5.1.26'
+}
