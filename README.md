@@ -30,7 +30,7 @@ gradle -Dhttp.proxyHost=proxy.address -Dhttp.proxyPort=80 -Dhttp.proxyUser=myuse
 ```
 
 ###Replacing Dao implementations
-The project as it is uses the Dummy Dao implementation. To use the the Jdbc or Hibernate version of the available dao implementation just change
+The project as it is uses the Dummy Dao implementation. To use the the Jdbc or Hibernate implementation just change
 the ``build.gradle`` file of the **spring-app-service** project from:
 ```
 description = 'spring-app-service'
@@ -59,7 +59,7 @@ dependencies {
   . . .
 }
 ```
-
+and run ``gradle clean`` and ``gradle build`` or refresh projects in your IDE.
 
 ###References
 <a href="http://www.gradle.org/docs/current/userguide/java_plugin.html" target="_blank">Gradle Java plugin</a><br>
