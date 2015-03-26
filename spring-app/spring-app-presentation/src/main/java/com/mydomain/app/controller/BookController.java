@@ -21,7 +21,7 @@ public class BookController {
 	LibraryService libraryService;
 
 	@RequestMapping("/book")
-	public String hello(@RequestParam(value = "id", required = false, defaultValue = "0") Long id, Model model) {
+	public String getBook(@RequestParam(value = "id", required = false, defaultValue = "0") Long id, Model model) {
 
 		Book book;
 		try {
