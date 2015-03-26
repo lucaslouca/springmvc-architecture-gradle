@@ -1,6 +1,7 @@
 package com.mydomain.app.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.ui.Model;
@@ -13,6 +14,7 @@ import com.mydomain.app.config.ServiceConfig;
 import com.mydomain.app.domain.Book;
 
 @Controller
+@Scope("request")
 @ContextConfiguration(classes = { ServiceConfig.class })
 public class BookController {
 	@Autowired
