@@ -4,7 +4,7 @@ A multi-project Spring MVC example with gradle
 This is a Spring MVC web application example based on the <a href="https://github.com/lucaslouca/spring-architecture-gradle" target="_blank">spring-architecture-gradle</a> project.
 
 
-###How to Import into Eclipse
+### How to Import into Eclipse
 * **File** -> **Import...** -> **Gradle** -> **Gradle Project**
 * Click **Next**
 * Click **Browse...** for the **Root Directory**
@@ -17,7 +17,7 @@ Notes:
 * You may need <a href="http://marketplace.eclipse.org/content/gradle-integration-eclipse-44" target="_blank">Gradle Integration for Eclipse</a>
 * If you are using <a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a> make sure to replace ``apply plugin: 'eclipse'`` with ``apply plugin: 'idea'`` in the **build.gradle** file located in **spring-app**.
 
-###Building
+### Building
 You can run:
 
 ```
@@ -61,11 +61,11 @@ dependencies {
 ```
 and run ``gradle clean`` and ``gradle build`` on **spring-app** or refresh all projects in your IDE.
 
-###Deployment
+### Deployment
 Deployment of **spring-app-presentation** to a local Tomcat can be accessed through:
 ``http://127.0.0.1:8080/spring-app-presentation/book``
 
-###References
+### References
 <a href="http://www.gradle.org/docs/current/userguide/java_plugin.html" target="_blank">Gradle Java plugin</a><br>
 <a href="http://www.gradle.org/docs/current/userguide/maven_plugin.html" target="_blank">Gradle Maven plugin</a><br>
 <a href="http://www.gradle.org/docs/current/userguide/eclipse_plugin.html" target="_blank">Gradle Eclipse plugin</a><br>
